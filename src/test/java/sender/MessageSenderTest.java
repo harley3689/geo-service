@@ -55,16 +55,16 @@ public class MessageSenderTest {
                         GeoServiceImpl.MOSCOW_IP,
                         new Location("Moscow", Country.RUSSIA, "Lenina", 15),
                         Country.RUSSIA,
-                        "Добро пожаловать"),
+                        "Добро пожаловать\n"),
                 Arguments.of(
                         GeoServiceImpl.NEW_YORK_IP,
                         new Location("New York", Country.USA, " 10th Avenue", 32),
                         Country.USA,
-                        "Welcome"),
+                        "Welcome\n"),
                 Arguments.of(
                         GeoServiceImpl.GERMANY_IP,
                         new Location("Hamburg",Country.GERMANY,null,0),
-                        Country.GERMANY,"Guten Tag"),
+                        Country.GERMANY,"Guten Tag\n"),
                 Arguments.of(
                         GeoServiceImpl.BRAZIL_IP,
                         new Location("Sao Paulo",Country.BRAZIL,null,0),

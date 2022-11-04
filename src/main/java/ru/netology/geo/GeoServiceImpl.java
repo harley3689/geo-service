@@ -9,7 +9,7 @@ public class GeoServiceImpl implements GeoService {
     public static final String MOSCOW_IP = "172.0.32.11";
     public static final String NEW_YORK_IP = "96.44.183.149";
     public static final String GERMANY_IP = "2.16.29.0";
-    public static final String BRAZIL_IP = "189.122.145.166";
+    public static final String BRAZIL_IP = "45.228.147.209";
 
     /**
      * Метод определяет локацию по ip
@@ -27,7 +27,7 @@ public class GeoServiceImpl implements GeoService {
             return new Location("New York", Country.USA, null,  0);
         } else if (ip.startsWith("2.")) {
             return new Location("Hamburg",Country.GERMANY,null,0);
-        } else if (ip.startsWith("189.")) {
+        } else if (ip.startsWith("45.")) {
             return new Location("Sao Paulo",Country.BRAZIL,null,0);
         }
         return null;

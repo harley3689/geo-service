@@ -17,7 +17,7 @@ public class Main {
         MessageSender messageSender = new MessageSenderImpl(geoService, localizationService);
 
         Map<String, String> headers = new HashMap<String, String>();
-        headers.put(MessageSenderImpl.IP_ADDRESS_HEADER, "189.122.145.166");
+        headers.put(MessageSenderImpl.IP_ADDRESS_HEADER, "45.228.147.209");
         messageSender.send(headers);
     }
 }
