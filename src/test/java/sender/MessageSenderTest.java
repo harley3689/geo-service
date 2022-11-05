@@ -68,6 +68,6 @@ public class MessageSenderTest {
                 Arguments.of(
                         GeoServiceImpl.BRAZIL_IP,
                         new Location("Sao Paulo",Country.BRAZIL,null,0),
-                        Country.BRAZIL,"Olá"));
+                        Country.BRAZIL,"Olá\n"));
     }
 }
